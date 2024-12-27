@@ -1,31 +1,31 @@
 .service{
     height: 100vh;
     background: var(--bg);
-    border-radius: 100px 100px 0px 0px;
+    border-radius: 60px 60px 0px 0px;
 
     .service-container{
-        padding: 100px 0px;
+        padding: 100px 30px;
 
         .top
         {
             h2{
-                font-size: 6rem;
-                line-height: 5rem;
+                font-size: 6vw;
+                line-height: 5vw;
                 .business{
-                    position: relative;
                     font-family: inherit;
-                    transform: translateY(-100px)  translateX(275px) rotate(-5deg);
+                    transform:  rotate(-5deg);
                     background: var(--accent4);
                     padding: 20px 40px 30px 40px ;
-                    height: fit-content;;
+                    height: 8vw;
                     width: fit-content;
                     color: var(--bg);
                     border-radius: 100px;
+                    display: inline-block;
 
                     &::after{
                         display: block;
                         content: "";
-                        height:120px;
+                        height:80%;
                         width: calc(100% - 30px );
                         border-radius: 100px;
                         border: 3px dashed var(--bg);
