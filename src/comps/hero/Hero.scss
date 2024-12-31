@@ -17,6 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px;
 
     .hero-content {
       display: flex;

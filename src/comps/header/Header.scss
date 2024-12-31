@@ -4,6 +4,21 @@
     top: 1000;
     background: linear-gradient(black , transparent);
 
+    .header-containermobile{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4vw;
+        background: red;
+        a{
+            img{
+                width: 100px;
+            }
+        }
+
+    }
+
     .header-container {
         display: flex;
         justify-content: space-between;
@@ -66,3 +81,6 @@
         mix-blend-mode: screen;
     }
 }
+
+
+
