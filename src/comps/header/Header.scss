@@ -71,13 +71,13 @@
         background-position: center center !important;
         background-repeat: no-repeat !important;
         background-size: contain !important;
-        background: url("../../assets/circle2.gif");
+        background: url("../../assets/circle.gif");
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-45%, -55%);
         z-index: 0;
-        opacity: 0.6;
+        opacity: 1;
         mix-blend-mode: screen;
     }
 }
